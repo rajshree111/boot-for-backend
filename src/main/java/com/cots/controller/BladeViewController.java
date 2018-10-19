@@ -32,7 +32,7 @@ public class BladeViewController {
 	@RequestMapping(value="/getallblade",method=RequestMethod.GET, produces = "application/json")
 	public List<BladeView> getAllBlade() {
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 		}catch(Exception e) {
 			System.out.println("###########"+e);
 		}
